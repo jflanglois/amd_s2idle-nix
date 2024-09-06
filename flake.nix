@@ -10,8 +10,8 @@
       version = "1.0";
       src = pkgs.fetchgit {
         url = "https://gitlab.freedesktop.org/drm/amd.git";
-        rev = "730b18d9f946a3fb2c7c4b10b19c7db1ef6f0927";
-        hash = "sha256-87dWGeWOSOGfoeHEkOJP12Jv2f6+93iyist4vq2mTAY=";
+        rev = "69db67c36fc8bf6d881ab9e0838124f532a4a64d";
+        hash = "sha256-9vwDX4q/8BKV1scPkB2o2jchMMvmOT3DJ/c/N6Qy4ck=";
       };
       installPhase = ''install -Dm755 scripts/amd_s2idle.py $out/bin/amd_s2idle'';
       format = "other";
